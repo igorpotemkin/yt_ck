@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ee4a04f8-5bce-4367-ba7f-b18893c48db0" extendedConfigurationObject="a97bc7cd-71bc-4a54-9059-2a25f48b25d2">
+  <producedTypes>
+    <refType typeId="4aaccdd4-c040-4240-a6af-8c3adbe9b904" valueTypeId="4064b0da-faa9-4990-8832-8f41cac483c7"/>
+    <listType typeId="21264827-f964-4ab0-9a08-cdc910a15fba" valueTypeId="3750f9d2-274f-4308-880e-9f856b48045f"/>
+    <managerType typeId="9fc65659-8092-42b9-a365-0d8057e459ce" valueTypeId="b8441a53-e5b1-4b42-9514-5bcd13e25c0e"/>
+  </producedTypes>
+  <name>СтатусыДоговоровКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="dcf77299-f469-4599-b861-6c8020963f7a" extendedConfigurationObject="981b86f1-d7d8-466e-a92f-27fc8d2dbd51">
+    <name>Действует</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

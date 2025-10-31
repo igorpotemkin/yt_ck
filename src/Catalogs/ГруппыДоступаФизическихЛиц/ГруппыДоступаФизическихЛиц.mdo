@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7a5ae365-e398-4f74-a809-a227d0ee2a04" extendedConfigurationObject="459e2c8f-a7ed-4358-a1b0-ec88f2c0b3cd">
+  <producedTypes>
+    <objectType typeId="2068473e-30d4-4848-8dd8-3a43c1d13db5" valueTypeId="76022c27-e6e3-4f39-af50-6dada8467d33"/>
+    <refType typeId="19991fd8-ebb6-44cc-b5ab-1f814af03116" valueTypeId="632a8b47-b890-414d-a4a7-bfa4a09a702a"/>
+    <selectionType typeId="0ef89186-b977-4d78-8206-77bedd28eecf" valueTypeId="4ab69611-85c1-49dd-91f1-07297e6a8275"/>
+    <listType typeId="e1e622e1-0e2f-4fe2-a4ac-fe4189a9bbfc" valueTypeId="c894b3a4-34eb-4ba5-8974-299589f81bce"/>
+    <managerType typeId="9cb6cf16-efa1-49b4-b5ba-1dfe6b0c90d7" valueTypeId="909d77e0-2cca-4886-b8a2-da186ed9a951"/>
+  </producedTypes>
+  <name>ГруппыДоступаФизическихЛиц</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="307857e0-081f-483a-a9f2-8f5ee8e2de00">
+  <producedTypes>
+    <objectType typeId="71aeffd3-2109-45ad-8f39-de08c193c9d5" valueTypeId="fed095ef-df5d-4610-9501-d1cf7498497b"/>
+    <managerType typeId="91c056a8-2451-4d0b-9d45-5383fedbeb15" valueTypeId="6153d3b9-bec3-4777-a605-5ecabff63306"/>
+  </producedTypes>
+  <name>СК_Склад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карта склада</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СК_Склад.Form.Форма</defaultForm>
+  <forms uuid="a0dc153f-724a-4ba9-a7fb-09463edecf6b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ad8b7715-dec5-45de-8060-4f67c695fdb3">
+    <name>МакетЭтажA2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет этаж a2</value>
+    </synonym>
+  </templates>
+  <templates uuid="0da8a0ff-cc5f-40b5-bf75-f60ee45c779d">
+    <name>МакетЭтажB2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет этаж b2</value>
+    </synonym>
+  </templates>
+  <templates uuid="dee974d6-3f7e-46cf-a9b6-9f6fc78b5687">
+    <name>МакетЭтажC2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет этаж c2</value>
+    </synonym>
+  </templates>
+  <templates uuid="143a6e04-047a-4db9-b458-0cb780e94036">
+    <name>МакетЭтажD2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет этаж d2</value>
+    </synonym>
+  </templates>
+  <templates uuid="d2fd4039-82eb-4db6-a990-d02352a91d56">
+    <name>МакетЭтажF2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет этаж f2</value>
+    </synonym>
+  </templates>
+  <templates uuid="a9304b2d-cfe1-4a0a-875f-d811bc570a1a">
+    <name>МакетЭтажG2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет этаж g2</value>
+    </synonym>
+  </templates>
+  <templates uuid="2a742aa1-2c6e-4bdb-9b0b-0a2e73f48a02">
+    <name>МакетЭтажH2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет этаж h2</value>
+    </synonym>
+  </templates>
+  <templates uuid="46e43473-1674-4ca9-9dd6-36320f0c0f72">
+    <name>МакетЭтажK2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет этаж k2</value>
+    </synonym>
+  </templates>
+  <templates uuid="0e63e015-f916-4edf-80c7-92dce32b0817">
+    <name>МакетЭтажL2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет этаж l2</value>
+    </synonym>
+  </templates>
+  <templates uuid="c7c1eace-1e6e-4047-a953-b353ded318cf">
+    <name>МакетЭтажM2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет этаж m2</value>
+    </synonym>
+  </templates>
+  <templates uuid="f556d119-83e8-458c-8717-1f9fb678fec0">
+    <name>МакетЭтажO2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет этаж o2</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

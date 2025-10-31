@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2aa57d73-a411-429e-89c5-71e8573aad0b" extendedConfigurationObject="3ae14a42-8682-40cf-934f-6f3d533900c2">
+  <producedTypes>
+    <objectType typeId="4072a160-b2c8-477e-9e62-0fa5c80471af" valueTypeId="83daee7e-cc4b-4a74-8205-50c4ec3e9372"/>
+    <refType typeId="f0fc00ea-975d-4162-a674-d4ad11d5410e" valueTypeId="4416ca9d-7a3f-4761-b18c-df996b3be9b7"/>
+    <selectionType typeId="793696bd-74a3-4310-a465-b59551e86806" valueTypeId="30b1b090-30af-4c13-bc72-0391b271844d"/>
+    <listType typeId="d758f827-ac54-40a1-8ef8-be9411d7e952" valueTypeId="1455586a-17fd-4500-afe8-e94d06742442"/>
+    <managerType typeId="12e37b61-694f-4255-a448-61e1987ebd7e" valueTypeId="49da412b-c449-4169-87f4-75bdd8faa5c1"/>
+  </producedTypes>
+  <name>БанковскиеСчетаОрганизаций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>
