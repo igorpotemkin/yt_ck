@@ -138,6 +138,8 @@
   <catalogs>Catalog.Приоритеты</catalogs>
   <catalogs>Catalog.ВариантыКомплектацииНоменклатуры</catalogs>
   <catalogs>Catalog.ПричиныОтменыЗаказовКлиентов</catalogs>
+  <catalogs>Catalog.СкладскиеПомещения</catalogs>
+  <catalogs>Catalog.СкладскиеЯчейки</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.СчетФактураВыданный</documents>
@@ -155,6 +157,7 @@
   <documents>Document.ЗаказНаВнутреннееПотребление</documents>
   <documents>Document.СборкаТоваров</documents>
   <documents>Document.ЗаказНаСборку</documents>
+  <documents>Document.ПересчетТоваров</documents>
   <documentNumerators>DocumentNumerator.ДокументыРеализацииТоваров</documentNumerators>
   <enums>Enum.ТипыНалогообложенияНДС</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
@@ -178,6 +181,9 @@
   <enums>Enum.СтатусыСборокТоваров</enums>
   <enums>Enum.ВариантыПриемкиТоваров</enums>
   <enums>Enum.СтатусыЗаказовКлиентов</enums>
+  <enums>Enum.СК_СтатусыБлокировокСекций</enums>
+  <enums>Enum.ТипыИзмеряемыхВеличин</enums>
+  <enums>Enum.СтатусыПересчетовТоваров</enums>
   <reports>Report.ВыручкаИСебестоимостьПродаж</reports>
   <reports>Report.ЗадолженностьКлиентов</reports>
   <reports>Report.ЗадолженностьПоставщикам</reports>
@@ -191,6 +197,8 @@
   <informationRegisters>InformationRegister.СК_Потребность</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ВариантыУказанияНоменклатурыВДокументахБЭД</informationRegisters>
+  <informationRegisters>InformationRegister.СК_БлокировкаСекций</informationRegisters>
+  <informationRegisters>InformationRegister.СК_Инвентаризация</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СК_ТоварыНаСкладах</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиАктивовПассивов</chartsOfCharacteristicTypes>

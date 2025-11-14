@@ -66,10 +66,10 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="f3100bec-12dc-40f2-b156-491d85cb6faa">
-    <name>Инвентаризация</name>
+    <name>Корректировка</name>
     <synonym>
       <key>ru</key>
-      <value>Инвентаризация</value>
+      <value>Корректировка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -133,6 +133,33 @@
     <synonym>
       <key>ru</key>
       <value>Форма размещения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1c6031fe-7ee9-41ab-900e-72a00c88d00e">
+    <name>ФормаИнвентаризации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма инвентаризации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="718ff40e-3542-4426-9591-08a23b535697">
+    <name>ФормаИнвентаризацииСекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма инвентаризации секции</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="690803f1-9517-4ea2-aaff-0c1b9f30d226">
+    <name>ФормаИнвентаризацииЯчейки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма инвентаризации ячейки</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
