@@ -785,7 +785,8 @@
     </title>
     <id>8</id>
     <valueType>
-      <types>DocumentRef.ПересчетТоваров</types>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>

@@ -1214,7 +1214,6 @@
                       <color>Style.ЦветТекстаНевыбраннойКартинки</color>
                     </textColor>
                     <border xsi:type="core:BorderDef">
-                      <style>Single</style>
                       <width>1</width>
                     </border>
                     <font xsi:type="core:FontRef">

@@ -87,6 +87,7 @@
   <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
   <commonModules>CommonModule.СК_ОстаткиЯчейки</commonModules>
   <commonModules>CommonModule.СК_ОбщийМодульЯчейки</commonModules>
+  <commonModules>CommonModule.СК_COMСоединение</commonModules>
   <functionalOptions>FunctionalOption.ИспользоватьЗаказыКлиентов</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьНаборы</functionalOptions>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
@@ -194,6 +195,7 @@
   <dataProcessors>DataProcessor.ПечатьЭтикетокИЦенников</dataProcessors>
   <dataProcessors>DataProcessor.СК_ПечатьЗаданияНаОтбор</dataProcessors>
   <dataProcessors>DataProcessor.СК_Склад</dataProcessors>
+  <dataProcessors>DataProcessor.ПечатьМ11</dataProcessors>
   <informationRegisters>InformationRegister.СК_Потребность</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ВариантыУказанияНоменклатурыВДокументахБЭД</informationRegisters>

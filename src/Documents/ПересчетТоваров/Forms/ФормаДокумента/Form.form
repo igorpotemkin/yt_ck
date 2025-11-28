@@ -1182,6 +1182,31 @@
           <name>КоманднаяПанельТовары</name>
           <id>132</id>
           <items xsi:type="form:Button">
+            <name>ТоварыЗагрузитьИзТСД</name>
+            <id>293</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ТоварыЗагрузитьИзТСДРасширеннаяПодсказка</name>
+              <id>294</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ЗагрузитьИзТСД</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
             <name>ТоварыРазбитьСтроку</name>
             <id>133</id>
             <visible>true</visible>
@@ -1242,6 +1267,7 @@
             <items xsi:type="form:Button">
               <name>ТоварыВыгрузитьДанныеВТСД</name>
               <id>149</id>
+              <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
@@ -1270,6 +1296,7 @@
                 <key>ru</key>
                 <value>Загрузить товары из ТСД</value>
               </title>
+              <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
@@ -1439,32 +1466,6 @@
             <commandSource>Item.Товары</commandSource>
           </extInfo>
         </items>
-        <items xsi:type="form:Button">
-          <name>ТоварыЗагрузитьИзТСД</name>
-          <id>293</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>ТоварыЗагрузитьИзТСДРасширеннаяПодсказка</name>
-            <id>294</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>UsualButton</type>
-          <commandName>Form.Command.ЗагрузитьИзТСД</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <representationInContextMenu>Auto</representationInContextMenu>
-        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1506,10 +1507,6 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <titleLocation>None</titleLocation>
-        <excludedCommands>Change</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ТоварыНомерСтроки</name>
           <id>50</id>
@@ -2709,135 +2706,6 @@
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
-  <attributes>
-    <name>Объект</name>
-    <id>1000001</id>
-    <valueType>
-      <types>DocumentObject.ПересчетТоваров</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Объект.RegisterRecords</segments>
-    </notDefaultUseAlwaysAttributes>
-    <main>true</main>
-    <savedData>true</savedData>
-    <additionalColumns>
-      <tablePath xsi:type="form:DataPath">
-        <segments>Объект.Товары</segments>
-      </tablePath>
-      <columns>
-        <name>ХарактеристикиИспользуются</name>
-        <title>
-          <key>ru</key>
-          <value>Характеристики используются</value>
-        </title>
-        <id>1</id>
-        <valueType>
-          <types>Boolean</types>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-      <columns>
-        <name>Расхождение</name>
-        <title>
-          <key>ru</key>
-          <value>Расхождение</value>
-        </title>
-        <id>2</id>
-        <valueType>
-          <types>Boolean</types>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-      <columns>
-        <name>ТипНоменклатуры</name>
-        <title>
-          <key>ru</key>
-          <value>Тип номенклатуры</value>
-        </title>
-        <id>3</id>
-        <valueType>
-          <types>EnumRef.ТипыНоменклатуры</types>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-      <columns>
-        <name>Артикул</name>
-        <title>
-          <key>ru</key>
-          <value>Артикул</value>
-        </title>
-        <id>4</id>
-        <valueType>
-          <types>DefinedType.Артикул</types>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-      <columns>
-        <name>КоличествоУпаковокОтклонение</name>
-        <title>
-          <key>ru</key>
-          <value>Отклонение</value>
-        </title>
-        <id>5</id>
-        <valueType>
-          <types>Number</types>
-          <numberQualifiers>
-            <precision>15</precision>
-            <scale>3</scale>
-          </numberQualifiers>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-      <columns>
-        <name>ТипИзмеряемойВеличины</name>
-        <title>
-          <key>ru</key>
-          <value>Тип измеряемой величины</value>
-        </title>
-        <id>6</id>
-        <valueType>
-          <types>EnumRef.ТипыИзмеряемыхВеличин</types>
-        </valueType>
-        <view>
-          <common>true</common>
-        </view>
-        <edit>
-          <common>true</common>
-        </edit>
-      </columns>
-    </additionalColumns>
-  </attributes>
   <formCommands>
     <name>ЗагрузитьИзТСД</name>
     <title>
