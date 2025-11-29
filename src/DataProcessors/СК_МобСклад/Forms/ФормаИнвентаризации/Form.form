@@ -451,8 +451,7 @@
     </title>
     <id>2</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>DocumentRef.ПересчетТоваров</types>
     </valueType>
     <view>
       <common>true</common>

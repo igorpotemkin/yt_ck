@@ -206,6 +206,7 @@
       <items xsi:type="form:FormField">
         <name>ТоварыЯчейка</name>
         <id>38</id>
+        <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -740,8 +741,7 @@
     </title>
     <id>2</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>DocumentRef.ПересчетТоваров</types>
     </valueType>
     <view>
       <common>true</common>
