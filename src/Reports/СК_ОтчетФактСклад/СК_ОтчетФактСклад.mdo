@@ -7,7 +7,7 @@
   <name>СК_ОтчетФактСклад</name>
   <synonym>
     <key>ru</key>
-    <value>Отчет Факт Склад</value>
+    <value>СК ОтчетФактСклад</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.СК_ОтчетФактСклад.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>

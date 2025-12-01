@@ -31,6 +31,10 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
+			<dataPath>Помещение</dataPath>
+			<field>Помещение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
 			<dataPath>ВНаличииОстатокСклад</dataPath>
 			<field>ВНаличииОстатокСклад</field>
 			<title xsi:type="v8:LocalStringType">
@@ -41,8 +45,20 @@
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
+			<dataPath>Назначение</dataPath>
+			<field>Назначение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Характеристика</dataPath>
+			<field>Характеристика</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
 			<dataPath>Склад</dataPath>
 			<field>Склад</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Серия</dataPath>
+			<field>Серия</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ШтрихКодЯчейка</dataPath>
@@ -68,16 +84,24 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидЦены</dataPath>
+			<field>ВидЦены</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
 			<dataPath>Цена</dataPath>
 			<field>Цена</field>
-			<valueType>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Any</v8:AllowedSign>
-				</v8:NumberQualifiers>
-			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ХарактеристикаЦО</dataPath>
+			<field>ХарактеристикаЦО</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерияЦО</dataPath>
+			<field>СерияЦО</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УпаковкаЦО</dataPath>
+			<field>УпаковкаЦО</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>СуммаТСД</dataPath>
@@ -85,17 +109,9 @@
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сумма ТСД</v8:content>
+					<v8:content>Вналичии остаток ТСД руб</v8:content>
 				</v8:item>
 			</title>
-			<valueType>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Any</v8:AllowedSign>
-				</v8:NumberQualifiers>
-			</valueType>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>СуммаУчет</dataPath>
@@ -103,21 +119,9 @@
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сумма учет</v8:content>
+					<v8:content>Вналичии остаток склад  руб</v8:content>
 				</v8:item>
 			</title>
-			<valueType>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Any</v8:AllowedSign>
-				</v8:NumberQualifiers>
-			</valueType>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ВидЦены</dataPath>
-			<field>ВидЦены</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
@@ -131,12 +135,12 @@
 	ЦеныНоменклатуры25СрезПоследних.Цена * СК_ТоварыНаСкладахОстатки.ВналичииОстаток КАК СуммаТСД,
 	ЦеныНоменклатуры25СрезПоследних.Цена * ТоварыНаСкладахОстатки.ВНаличииОстаток КАК СуммаУчет
 ИЗ
-	РегистрНакопления.СК_ТоварыНаСкладах.Остатки(&amp;Период,) КАК СК_ТоварыНаСкладахОстатки
-		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрНакопления.ТоварыНаСкладах.Остатки(&amp;Период,) КАК ТоварыНаСкладахОстатки
+	РегистрНакопления.СК_ТоварыНаСкладах.Остатки(&amp;Период, ) КАК СК_ТоварыНаСкладахОстатки
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрНакопления.ТоварыНаСкладах.Остатки(&amp;Период, ) КАК ТоварыНаСкладахОстатки
 		ПО СК_ТоварыНаСкладахОстатки.Номенклатура = ТоварыНаСкладахОстатки.Номенклатура
 		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ШтрихкодыНоменклатуры КАК ШтрихкодыНоменклатуры
 		ПО СК_ТоварыНаСкладахОстатки.Номенклатура = ШтрихкодыНоменклатуры.Номенклатура
-		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ЦеныНоменклатуры25.СрезПоследних(&amp;Период) КАК ЦеныНоменклатуры25СрезПоследних
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ЦеныНоменклатуры25.СрезПоследних КАК ЦеныНоменклатуры25СрезПоследних
 		ПО СК_ТоварыНаСкладахОстатки.Номенклатура = ЦеныНоменклатуры25СрезПоследних.Номенклатура
 ГДЕ
 	ЦеныНоменклатуры25СрезПоследних.ВидЦены = &amp;ВидЦены</query>
@@ -246,6 +250,26 @@
 		<group>ОбщийИтог</group>
 	</totalField>
 	<totalField>
+		<dataPath>СуммаТСД</dataPath>
+		<expression>СуммаТСД</expression>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаУчет</dataPath>
+		<expression>СуммаУчет</expression>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаТСД</dataPath>
+		<expression>Сумма(СуммаТСД)</expression>
+		<group>ОбщийИтог</group>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаУчет</dataPath>
+		<expression>Сумма(ВычислитьВыражениеСГруппировкойМассив("СуммаУчет", "Номенклатура"))</expression>
+		<group>ОбщийИтог</group>
+	</totalField>
+	<totalField>
 		<dataPath>РазницаРуб</dataPath>
 		<expression>РазницаРуб</expression>
 		<group>Номенклатура</group>
@@ -261,6 +285,10 @@
 		<group>ОбщийИтог</group>
 	</totalField>
 	<totalField>
+		<dataPath>Цена</dataPath>
+		<expression>Цена</expression>
+	</totalField>
+	<totalField>
 		<dataPath>Проверка</dataPath>
 		<expression>Проверка</expression>
 	</totalField>
@@ -268,18 +296,6 @@
 		<dataPath>РазницаРуб</dataPath>
 		<expression>Сумма(СуммаТСД) - Сумма(ВычислитьВыражениеСГруппировкойМассив("СуммаУчет", "Номенклатура"))</expression>
 		<group>ОбщийИтог</group>
-	</totalField>
-	<totalField>
-		<dataPath>СуммаТСД</dataPath>
-		<expression>СуммаТСД</expression>
-	</totalField>
-	<totalField>
-		<dataPath>Цена</dataPath>
-		<expression>Цена</expression>
-	</totalField>
-	<totalField>
-		<dataPath>СуммаУчет</dataPath>
-		<expression>СуммаУчет</expression>
 	</totalField>
 	<parameter>
 		<name>Период</name>
@@ -309,6 +325,7 @@
 		<valueType>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВидыЦен</v8:Type>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<settingsVariant>
@@ -362,14 +379,10 @@
 					<dcsset:userSettingID>904728d9-8aa7-43fe-a677-2d35d484d481</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>ВидЦены</dcscor:parameter>
-					<dcsset:userSettingID>21170a4b-1473-4640-86be-65745101e951</dcsset:userSettingID>
-					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Вид цены</v8:content>
-						</v8:item>
-					</dcsset:userSettingPresentation>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>c8103554-b29f-46e7-a09b-7dd72cc2ef5c</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:conditionalAppearance>
