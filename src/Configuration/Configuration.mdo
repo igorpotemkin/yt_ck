@@ -188,6 +188,7 @@
   <reports>Report.ВыручкаИСебестоимостьПродаж</reports>
   <reports>Report.ЗадолженностьКлиентов</reports>
   <reports>Report.ЗадолженностьПоставщикам</reports>
+  <reports>Report.СК_ОтчетФактСклад</reports>
   <dataProcessors>DataProcessor.ПечатьСчетовНаОплату</dataProcessors>
   <dataProcessors>DataProcessor.ПечатьОбщихФорм</dataProcessors>
   <dataProcessors>DataProcessor.СК_Руководителю</dataProcessors>
@@ -201,6 +202,7 @@
   <informationRegisters>InformationRegister.ВариантыУказанияНоменклатурыВДокументахБЭД</informationRegisters>
   <informationRegisters>InformationRegister.СК_БлокировкаСекций</informationRegisters>
   <informationRegisters>InformationRegister.СК_Инвентаризация</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры25</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СК_ТоварыНаСкладах</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиАктивовПассивов</chartsOfCharacteristicTypes>
