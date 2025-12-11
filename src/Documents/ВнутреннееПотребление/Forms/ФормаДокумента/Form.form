@@ -3461,6 +3461,7 @@
         <rowsPicture xsi:type="core:PictureRef">
           <picture>CommonPicture.СостоянияСтрок</picture>
         </rowsPicture>
+        <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>

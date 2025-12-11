@@ -88,6 +88,7 @@
   <commonModules>CommonModule.СК_ОстаткиЯчейки</commonModules>
   <commonModules>CommonModule.СК_ОбщийМодульЯчейки</commonModules>
   <commonModules>CommonModule.СК_COMСоединение</commonModules>
+  <commonModules>CommonModule.ОбменМобильныеОбщее</commonModules>
   <functionalOptions>FunctionalOption.ИспользоватьЗаказыКлиентов</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьНаборы</functionalOptions>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>

@@ -12,6 +12,20 @@
   <extension xsi:type="mdclassExtension:DocumentExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
+  <attributes uuid="be89d656-3d5c-46f2-aae2-54c4fcdf1e58" extendedConfigurationObject="8049878f-1356-43c7-bafe-21426949bd39">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+  </attributes>
   <forms uuid="e13239fb-93da-4223-8410-2815a1658f89" extendedConfigurationObject="3613a3a0-c5c5-4f37-89e4-faf024b4bd7f">
     <name>ФормаДокумента</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -19,5 +33,14 @@
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <form>Extended</form>
     </extension>
+  </forms>
+  <forms uuid="9f784eb4-ad10-43e8-aea2-8a7dab9893c6">
+    <name>СК_ПодборПересчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПодборПересчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
   </forms>
 </mdclass:Document>

@@ -5307,6 +5307,7 @@
             <initialListView>Auto</initialListView>
             <horizontalStretch>true</horizontalStretch>
             <verticalStretch>true</verticalStretch>
+            <rowFilter xsi:type="core:UndefinedValue"/>
           </items>
           <items xsi:type="form:FormGroup">
             <name>ГруппаТоварыПодвал</name>

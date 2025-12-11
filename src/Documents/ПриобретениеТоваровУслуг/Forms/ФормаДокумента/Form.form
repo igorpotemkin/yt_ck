@@ -5552,6 +5552,7 @@
         <rowsPicture xsi:type="core:PictureRef">
           <picture>CommonPicture.СостоянияСтрок</picture>
         </rowsPicture>
+        <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаКартинкаИНадписьНесколькоСкладов</name>

@@ -6082,6 +6082,7 @@
         <borderColor xsi:type="core:ColorRef">
           <color>Style.BorderColor</color>
         </borderColor>
+        <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаНадписьИКартинкаНесколькоСкладов</name>
