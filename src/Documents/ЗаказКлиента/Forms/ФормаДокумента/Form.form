@@ -267,9 +267,6 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <extInfo xsi:type="form:PictureDecorationExtInfo">
-                <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.СинхронизацияДанныхДлительнаяОперация</picture>
-                </picture>
                 <fileDragMode>AsFileRef</fileDragMode>
               </extInfo>
             </items>
@@ -958,11 +955,7 @@
                   <width>2</width>
                   <height>1</height>
                   <groupVerticalAlign>Center</groupVerticalAlign>
-                  <extInfo xsi:type="form:PictureDecorationExtInfo">
-                    <picture xsi:type="core:PictureRef">
-                      <picture>CommonPicture.ОтгрузкаЗапрещена</picture>
-                    </picture>
-                  </extInfo>
+                  <extInfo xsi:type="form:PictureDecorationExtInfo"/>
                 </items>
                 <items xsi:type="form:Decoration">
                   <name>ТекстОтгрузкаПартнеруЗапрещена</name>
@@ -1104,11 +1097,7 @@
                   <width>2</width>
                   <height>1</height>
                   <groupVerticalAlign>Center</groupVerticalAlign>
-                  <extInfo xsi:type="form:PictureDecorationExtInfo">
-                    <picture xsi:type="core:PictureRef">
-                      <picture>CommonPicture.ОтгрузкаЗапрещена</picture>
-                    </picture>
-                  </extInfo>
+                  <extInfo xsi:type="form:PictureDecorationExtInfo"/>
                 </items>
                 <items xsi:type="form:Decoration">
                   <name>ДекорацияОграничениеЗадолженности</name>
@@ -1371,11 +1360,7 @@
               <autoMaxWidth>true</autoMaxWidth>
               <height>1</height>
               <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:PictureDecorationExtInfo">
-                <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.ДлительнаяОперация16</picture>
-                </picture>
-              </extInfo>
+              <extInfo xsi:type="form:PictureDecorationExtInfo"/>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1665,11 +1650,7 @@
               </contextMenu>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:PictureDecorationExtInfo">
-                <picture xsi:type="core:PictureRef">
-                  <picture>StdPicture.Information</picture>
-                </picture>
-              </extInfo>
+              <extInfo xsi:type="form:PictureDecorationExtInfo"/>
             </items>
             <items xsi:type="form:Button">
               <name>НастроитьПодпискуНаОповещения</name>
@@ -2854,36 +2835,6 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
-                <choiceParameterLinks>
-                  <name>Отбор.ЦенаВключаетНДС</name>
-                  <datapath xsi:type="form:DataPath">
-                    <segments>Объект.ЦенаВключаетНДС</segments>
-                  </datapath>
-                </choiceParameterLinks>
-                <choiceParameterLinks>
-                  <name>ИспользоватьСоглашенияСКлиентами</name>
-                  <datapath xsi:type="form:DataPath">
-                    <segments>ИспользоватьСоглашенияСКлиентами</segments>
-                  </datapath>
-                </choiceParameterLinks>
-                <choiceParameterLinks>
-                  <name>Соглашение</name>
-                  <datapath xsi:type="form:DataPath">
-                    <segments>Объект.Соглашение</segments>
-                  </datapath>
-                </choiceParameterLinks>
-                <choiceParameterLinks>
-                  <name>Партнер</name>
-                  <datapath xsi:type="form:DataPath">
-                    <segments>Объект.Партнер</segments>
-                  </datapath>
-                </choiceParameterLinks>
-                <choiceParameterLinks>
-                  <name>ИспользуетсяЦенообразование25</name>
-                  <datapath xsi:type="form:DataPath">
-                    <segments>ИспользуетсяЦенообразование25</segments>
-                  </datapath>
-                </choiceParameterLinks>
                 <choiceParameters>
                   <name>ВыводитьПроизвольныйВидЦен</name>
                   <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -5496,11 +5447,7 @@
                 </contextMenu>
                 <width>2</width>
                 <height>1</height>
-                <extInfo xsi:type="form:PictureDecorationExtInfo">
-                  <picture xsi:type="core:PictureRef">
-                    <picture>StdPicture.Information</picture>
-                  </picture>
-                </extInfo>
+                <extInfo xsi:type="form:PictureDecorationExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
                 <name>НадписьНесколькоСкладов</name>
@@ -5967,9 +5914,6 @@
               <maxWidth>9</maxWidth>
               <maxHeight>9</maxHeight>
               <extInfo xsi:type="form:PictureDecorationExtInfo">
-                <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.ЛоготипОсновнойСервисДоставки</picture>
-                </picture>
                 <fileDragMode>AsFileRef</fileDragMode>
               </extInfo>
             </items>
@@ -8493,12 +8437,6 @@
                   <chooseType>true</chooseType>
                   <typeDomainEnabled>true</typeDomainEnabled>
                   <textEdit>true</textEdit>
-                  <choiceParameterLinks>
-                    <name>Отбор.Владелец</name>
-                    <datapath xsi:type="form:DataPath">
-                      <segments>Объект.Партнер</segments>
-                    </datapath>
-                  </choiceParameterLinks>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -8539,12 +8477,6 @@
                   <chooseType>true</chooseType>
                   <typeDomainEnabled>true</typeDomainEnabled>
                   <textEdit>true</textEdit>
-                  <choiceParameterLinks>
-                    <name>Отбор.Партнер</name>
-                    <datapath xsi:type="form:DataPath">
-                      <segments>Объект.Партнер</segments>
-                    </datapath>
-                  </choiceParameterLinks>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">

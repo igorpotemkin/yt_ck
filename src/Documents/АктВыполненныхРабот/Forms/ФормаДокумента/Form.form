@@ -636,11 +636,7 @@
                   </contextMenu>
                   <maxWidth>3</maxWidth>
                   <maxHeight>1</maxHeight>
-                  <extInfo xsi:type="form:PictureDecorationExtInfo">
-                    <picture xsi:type="core:PictureRef">
-                      <picture>CommonPicture.ВниманиеКрасный</picture>
-                    </picture>
-                  </extInfo>
+                  <extInfo xsi:type="form:PictureDecorationExtInfo"/>
                 </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -858,11 +854,7 @@
                   </contextMenu>
                   <maxWidth>3</maxWidth>
                   <maxHeight>1</maxHeight>
-                  <extInfo xsi:type="form:PictureDecorationExtInfo">
-                    <picture xsi:type="core:PictureRef">
-                      <picture>CommonPicture.ВниманиеКрасный</picture>
-                    </picture>
-                  </extInfo>
+                  <extInfo xsi:type="form:PictureDecorationExtInfo"/>
                 </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1159,11 +1151,7 @@
               <horizontalStretch>false</horizontalStretch>
               <verticalStretch>false</verticalStretch>
               <groupVerticalAlign>Top</groupVerticalAlign>
-              <extInfo xsi:type="form:PictureDecorationExtInfo">
-                <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.ОтгрузкаЗапрещена</picture>
-                </picture>
-              </extInfo>
+              <extInfo xsi:type="form:PictureDecorationExtInfo"/>
             </items>
             <items xsi:type="form:Decoration">
               <name>ТекстОтгрузкаПартнеруЗапрещена</name>
@@ -1356,11 +1344,7 @@
               <width>2</width>
               <verticalStretch>false</verticalStretch>
               <groupVerticalAlign>Bottom</groupVerticalAlign>
-              <extInfo xsi:type="form:PictureDecorationExtInfo">
-                <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.ОтгрузкаЗапрещена</picture>
-                </picture>
-              </extInfo>
+              <extInfo xsi:type="form:PictureDecorationExtInfo"/>
             </items>
             <items xsi:type="form:Decoration">
               <name>ДекорацияОграничениеЗадолженности</name>
@@ -2000,6 +1984,7 @@
               <picture>CommonPicture.Наборы</picture>
             </valuesPicture>
             <border xsi:type="core:BorderDef">
+              <style>Single</style>
               <width>1</width>
             </border>
           </extInfo>
@@ -2453,12 +2438,6 @@
               <name>Отбор.ЦенаВключаетНДС</name>
               <datapath xsi:type="form:DataPath">
                 <segments>Объект.ЦенаВключаетНДС</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>ИспользоватьСоглашенияСКлиентами</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>ИспользоватьСоглашенияСКлиентами</segments>
               </datapath>
             </choiceParameterLinks>
             <choiceParameterLinks>
@@ -5959,11 +5938,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:PictureDecorationExtInfo">
-        <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.ВниманиеКрасный</picture>
-        </picture>
-      </extInfo>
+      <extInfo xsi:type="form:PictureDecorationExtInfo"/>
     </items>
     <items xsi:type="form:FormField">
       <name>ТекстСчетаФактурыВыданные</name>

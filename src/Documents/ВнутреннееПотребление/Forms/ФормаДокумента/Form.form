@@ -177,11 +177,7 @@
           </contextMenu>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:PictureDecorationExtInfo">
-            <picture xsi:type="core:PictureRef">
-              <picture>StdPicture.Information</picture>
-            </picture>
-          </extInfo>
+          <extInfo xsi:type="form:PictureDecorationExtInfo"/>
         </items>
         <items xsi:type="form:Decoration">
           <name>ДекорацияНеобходимыСтатусы</name>
@@ -398,11 +394,7 @@
               <height>1</height>
               <autoMaxHeight>true</autoMaxHeight>
               <verticalStretch>false</verticalStretch>
-              <extInfo xsi:type="form:PictureDecorationExtInfo">
-                <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.ПревышениеЗаказа</picture>
-                </picture>
-              </extInfo>
+              <extInfo xsi:type="form:PictureDecorationExtInfo"/>
             </items>
             <items xsi:type="form:FormField">
               <name>НадписьРасхождениеЗаказ</name>
@@ -609,11 +601,7 @@
               <height>1</height>
               <autoMaxHeight>true</autoMaxHeight>
               <verticalStretch>false</verticalStretch>
-              <extInfo xsi:type="form:PictureDecorationExtInfo">
-                <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.ПревышениеЗаказа</picture>
-                </picture>
-              </extInfo>
+              <extInfo xsi:type="form:PictureDecorationExtInfo"/>
             </items>
             <items xsi:type="form:FormField">
               <name>НадписьРасхождениеЗаказы</name>
@@ -1623,6 +1611,7 @@
                 <picture>CommonPicture.СтатусыУказанияСерий</picture>
               </valuesPicture>
               <border xsi:type="core:BorderDef">
+                <style>Single</style>
                 <width>1</width>
               </border>
             </extInfo>

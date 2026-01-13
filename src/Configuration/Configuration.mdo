@@ -198,6 +198,7 @@
   <dataProcessors>DataProcessor.СК_ПечатьЗаданияНаОтбор</dataProcessors>
   <dataProcessors>DataProcessor.СК_Склад</dataProcessors>
   <dataProcessors>DataProcessor.ПечатьМ11</dataProcessors>
+  <dataProcessors>DataProcessor.СК_ЗаполнитьКорректировку</dataProcessors>
   <informationRegisters>InformationRegister.СК_Потребность</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ВариантыУказанияНоменклатурыВДокументахБЭД</informationRegisters>

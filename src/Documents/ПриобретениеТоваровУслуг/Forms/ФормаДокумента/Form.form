@@ -184,11 +184,7 @@
                 </contextMenu>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:PictureDecorationExtInfo">
-                  <picture xsi:type="core:PictureRef">
-                    <picture>CommonPicture.Предупреждение</picture>
-                  </picture>
-                </extInfo>
+                <extInfo xsi:type="form:PictureDecorationExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
                 <name>НадписьОтклонениеЦенЗаказ</name>
@@ -261,11 +257,7 @@
                 </contextMenu>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:PictureDecorationExtInfo">
-                  <picture xsi:type="core:PictureRef">
-                    <picture>CommonPicture.ПревышениеЗаказа</picture>
-                  </picture>
-                </extInfo>
+                <extInfo xsi:type="form:PictureDecorationExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
                 <name>НадписьРасхождениеЗаказ</name>
@@ -541,11 +533,7 @@
                 </contextMenu>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:PictureDecorationExtInfo">
-                  <picture xsi:type="core:PictureRef">
-                    <picture>CommonPicture.Предупреждение</picture>
-                  </picture>
-                </extInfo>
+                <extInfo xsi:type="form:PictureDecorationExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
                 <name>НадписьОтклонениеЦенЗаказы</name>
@@ -621,11 +609,7 @@
                 </contextMenu>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:PictureDecorationExtInfo">
-                  <picture xsi:type="core:PictureRef">
-                    <picture>CommonPicture.ПревышениеЗаказа</picture>
-                  </picture>
-                </extInfo>
+                <extInfo xsi:type="form:PictureDecorationExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
                 <name>НадписьРасхождениеЗаказы</name>
@@ -1027,11 +1011,7 @@
                   </contextMenu>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:PictureDecorationExtInfo">
-                    <picture xsi:type="core:PictureRef">
-                      <picture>CommonPicture.ВниманиеКрасный</picture>
-                    </picture>
-                  </extInfo>
+                  <extInfo xsi:type="form:PictureDecorationExtInfo"/>
                 </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1252,11 +1232,7 @@
                   </contextMenu>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:PictureDecorationExtInfo">
-                    <picture xsi:type="core:PictureRef">
-                      <picture>CommonPicture.ВниманиеКрасный</picture>
-                    </picture>
-                  </extInfo>
+                  <extInfo xsi:type="form:PictureDecorationExtInfo"/>
                 </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1710,43 +1686,6 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
-              <choiceParameterLinks>
-                <name>Отбор.ВалютаВзаиморасчетов</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>Объект.ВалютаВзаиморасчетов</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Отбор.Контрагент</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>Объект.Контрагент</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Отбор.Организация</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>Объект.Организация</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Отбор.Партнер</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>Объект.Партнер</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Соглашение</name>
-                <changeMode>DontChange</changeMode>
-                <datapath xsi:type="form:DataPath">
-                  <segments>Объект.Соглашение</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Отбор.ХозяйственнаяОперация</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>ХозяйственнаяОперацияДоговора</segments>
-                </datapath>
-              </choiceParameterLinks>
               <choiceParameters>
                 <name>Отбор.Статус</name>
                 <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -2667,6 +2606,7 @@
                 <picture>CommonPicture.СтатусыУказанияСерий</picture>
               </valuesPicture>
               <border xsi:type="core:BorderDef">
+                <style>Single</style>
                 <width>1</width>
               </border>
             </extInfo>
@@ -3190,6 +3130,7 @@
                 <picture>CommonPicture.КоллекцияПиктограммыТренда</picture>
               </valuesPicture>
               <border xsi:type="core:BorderDef">
+                <style>Single</style>
                 <width>1</width>
               </border>
             </extInfo>
@@ -4035,33 +3976,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Номенклатура</name>
-              <changeMode>DontChange</changeMode>
-              <datapath xsi:type="form:DataPath">
-                <segments>Items.Товары.CurrentData.Номенклатура</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Отбор.СтранаПроисхождения</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>Items.Товары.CurrentData.СтранаПроисхождения</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Характеристика</name>
-              <changeMode>DontChange</changeMode>
-              <datapath xsi:type="form:DataPath">
-                <segments>Items.Товары.CurrentData.Характеристика</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Дата</name>
-              <changeMode>DontChange</changeMode>
-              <datapath xsi:type="form:DataPath">
-                <segments>Объект.Date</segments>
-              </datapath>
-            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -5592,11 +5506,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <height>1</height>
           <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:PictureDecorationExtInfo">
-            <picture xsi:type="core:PictureRef">
-              <picture>StdPicture.Information</picture>
-            </picture>
-          </extInfo>
+          <extInfo xsi:type="form:PictureDecorationExtInfo"/>
         </items>
         <items xsi:type="form:FormField">
           <name>НадписьНесколькоСкладов</name>
@@ -5732,9 +5642,6 @@
           <maxWidth>9</maxWidth>
           <maxHeight>9</maxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
-            <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.ЛоготипОсновнойСервисДоставки</picture>
-            </picture>
             <fileDragMode>AsFileRef</fileDragMode>
           </extInfo>
         </items>
@@ -8786,11 +8693,7 @@
             </contextMenu>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:PictureDecorationExtInfo">
-              <picture xsi:type="core:PictureRef">
-                <picture>CommonPicture.ВниманиеКрасный</picture>
-              </picture>
-            </extInfo>
+            <extInfo xsi:type="form:PictureDecorationExtInfo"/>
           </items>
           <items xsi:type="form:FormField">
             <name>ТекстДокументыНаОсновании</name>

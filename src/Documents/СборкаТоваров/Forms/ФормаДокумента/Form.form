@@ -65,11 +65,7 @@
       </contextMenu>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:PictureDecorationExtInfo">
-        <picture xsi:type="core:PictureRef">
-          <picture>StdPicture.Information</picture>
-        </picture>
-      </extInfo>
+      <extInfo xsi:type="form:PictureDecorationExtInfo"/>
     </items>
     <items xsi:type="form:Decoration">
       <name>ДекорацияНеобходимыСтатусы</name>
@@ -2287,6 +2283,7 @@
                 <picture>CommonPicture.СтатусыУказанияСерий</picture>
               </valuesPicture>
               <border xsi:type="core:BorderDef">
+                <style>Single</style>
                 <width>1</width>
               </border>
             </extInfo>
@@ -2641,6 +2638,7 @@
                   <picture>CommonPicture.Внимание16</picture>
                 </valuesPicture>
                 <border xsi:type="core:BorderDef">
+                  <style>Single</style>
                   <width>1</width>
                 </border>
               </extInfo>
