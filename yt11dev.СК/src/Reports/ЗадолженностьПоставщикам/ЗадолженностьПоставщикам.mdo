@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cbbac023-39bd-49f8-a4fd-1065037bceba" extendedConfigurationObject="2c7983e5-6fb3-49aa-b3fd-cba1bea62f55">
+  <producedTypes>
+    <objectType typeId="10931ecd-9568-4112-8dd7-ca60a29191d2" valueTypeId="ba8470f4-8740-4f35-8243-a6e13aed7373"/>
+    <managerType typeId="1d7eed02-4e79-41f5-801a-80d6725a3e0c" valueTypeId="10b25a5a-73fe-49ce-bf54-9614cc1dfae6"/>
+  </producedTypes>
+  <name>ЗадолженностьПоставщикам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Report>

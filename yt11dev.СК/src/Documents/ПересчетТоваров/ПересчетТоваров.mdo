@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5c015687-7e3b-48ff-8ea2-87d17d377db2" extendedConfigurationObject="852cd565-1094-4515-9352-2ed625a00830">
+  <producedTypes>
+    <objectType typeId="51c81897-d06c-4434-840c-8b290a9c8e7e" valueTypeId="ff79a825-6b37-48da-a76b-9881bb3cc171"/>
+    <refType typeId="95dfc8e7-cc74-4298-a06c-d289e26144ab" valueTypeId="896baa3e-e3ad-4f0c-8e5b-2b4b422afe27"/>
+    <selectionType typeId="4dbc2011-3051-452d-be1d-6efe03aa955b" valueTypeId="e17dc426-e2f5-43d5-84bd-c328c5f8e73d"/>
+    <listType typeId="85728e62-bb1e-429d-98b7-34d25a91f6d2" valueTypeId="3abac7ba-ff78-42ba-ab9a-32be11cf8bbd"/>
+    <managerType typeId="5adc609e-f58c-4fd9-a92b-e91773625fde" valueTypeId="589e8a33-e85a-4a9d-beee-65aab97b6dae"/>
+  </producedTypes>
+  <name>ПересчетТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="be89d656-3d5c-46f2-aae2-54c4fcdf1e58" extendedConfigurationObject="8049878f-1356-43c7-bafe-21426949bd39">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="e13239fb-93da-4223-8410-2815a1658f89" extendedConfigurationObject="3613a3a0-c5c5-4f37-89e4-faf024b4bd7f">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="9f784eb4-ad10-43e8-aea2-8a7dab9893c6">
+    <name>СК_ПодборПересчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПодборПересчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

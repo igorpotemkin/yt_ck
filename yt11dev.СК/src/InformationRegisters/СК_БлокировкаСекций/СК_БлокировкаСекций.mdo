@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b30a6e98-862d-4c9e-927e-ea5001b3048b">
+  <producedTypes>
+    <selectionType typeId="3ec5b875-88f1-4c94-aa3b-7a31045c8e3d" valueTypeId="02abbb4e-063d-486a-981c-65fe65298981"/>
+    <listType typeId="4dbb0bf9-c297-4c53-8ab9-4401b2b53fcb" valueTypeId="4db65bca-2823-422a-9c97-00eb31d982f0"/>
+    <managerType typeId="36b85063-2c3d-4dc2-973c-76f9754b96da" valueTypeId="228303e4-4b07-45f8-a7a9-e4b1ccf7d867"/>
+    <recordSetType typeId="fb1ef0c0-19f2-4f41-9589-8460df0e7d41" valueTypeId="3a4f5d7f-467c-47b4-bb6c-faab67e2ee3e"/>
+    <recordKeyType typeId="72e34e3b-871a-4e6c-a148-94ce74adbcf8" valueTypeId="0169ea7e-e855-413e-841d-5c253879231c"/>
+    <recordType typeId="23e57504-fbe7-48a4-840d-6c2190cdd0f1" valueTypeId="3ea75529-14c9-4ce6-8490-cce9d43e23bd"/>
+    <recordManagerType typeId="abd72fa8-869e-4e64-be0f-2737e18ce070" valueTypeId="da142e9f-dcee-404c-8d25-e2aac10badce"/>
+  </producedTypes>
+  <name>СК_БлокировкаСекций</name>
+  <synonym>
+    <key>ru</key>
+    <value>СК БлокировкаСекций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6edb5752-2ffe-4de1-abaa-8ba584f63171">
+    <name>Блокировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокировка</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СК_СтатусыБлокировокСекций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="708467d6-7aa6-45b8-8bd1-18eba93cf5f6">
+    <name>ДокументПересчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ пересчета</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПересчетТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ddfc5c36-642a-4182-9c7c-bff4d76c647c">
+    <name>Секция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Секция</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb7d5fae-25c1-4653-97c9-14096f181eb7">
+  <producedTypes>
+    <objectType typeId="3b247e76-dbdc-4286-a232-abb12d1d4912" valueTypeId="e40730fb-2339-4aa5-aa93-3838f9065ce6"/>
+    <managerType typeId="fe625630-983c-4da4-a018-7bb9b6a5eb10" valueTypeId="d74037b0-bdd0-444d-ac48-959a884e7cfc"/>
+  </producedTypes>
+  <name>СК_ПечатьЗаданияНаОтбор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать заданий на отбор, размещение и пересчет товаров</value>
+  </synonym>
+  <templates uuid="ce15a9db-a13e-461a-85c3-4442429dec98">
+    <name>ПФ_MXL_ЗаданиеНаОтборРазмещениеТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание на отбор размещение товара</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a4e6b875-1c78-4503-b5d6-5dc687dc7596" extendedConfigurationObject="01b157d9-0897-49f2-a89b-c27365c56990">
+  <producedTypes>
+    <refType typeId="99269a4b-5633-4e93-994d-bb5256f8dd3d" valueTypeId="99f68e77-63ec-40ee-a100-519488379450"/>
+    <listType typeId="f5e525f4-99fe-454e-9e04-6118fa4f8947" valueTypeId="267fd6f5-f3cc-424d-91fc-7c0aede02098"/>
+    <managerType typeId="94c16f31-cc1f-482f-b6ba-3c018df8f04a" valueTypeId="91173763-77a7-467d-80f4-6285f5f222a5"/>
+  </producedTypes>
+  <name>ВариантыВыбытияМаркируемойПродукции</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="8b74182f-6ae9-4b34-a296-305b1eb16f18" extendedConfigurationObject="1f9b6892-b743-44eb-80c1-32334ddf8fc5">
+    <name>ИспользованиеПокупателемДляСобственныхНужд</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

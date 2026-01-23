@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a629bce1-2e6b-4e7b-8777-dd2349d6a2a2" extendedConfigurationObject="eb6b53b9-91ea-420a-902d-10c7a8d36e3b">
+  <producedTypes>
+    <objectType typeId="7e7b18ae-686d-4fe0-ab7f-9ea84f3105b7" valueTypeId="86459d1a-41a8-4135-ac61-1c62c765c3bf"/>
+    <managerType typeId="1da750d8-8a88-44e7-a38f-50ebd60aec01" valueTypeId="8417a64b-06a5-42df-85da-b4482b647add"/>
+  </producedTypes>
+  <name>ВыручкаИСебестоимостьПродаж</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Report>

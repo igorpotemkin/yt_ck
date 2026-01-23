@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1c630c86-ccc7-4643-9572-58bdddceb43f" extendedConfigurationObject="8502b653-32a8-4d01-a12e-5fe4cede91ef">
+  <producedTypes>
+    <objectType typeId="902040e8-b778-4c83-b63a-eaa11855bee5" valueTypeId="12806575-c521-4445-89c9-b0e0fcbfc556"/>
+    <refType typeId="071c0f59-76b3-4e6b-a53f-3d2d6f46d189" valueTypeId="d4ea684d-2ed6-4beb-9712-d9ecf8d86847"/>
+    <selectionType typeId="b943f7fa-5cc2-42ea-880b-e41317dabcd3" valueTypeId="a056e4b7-b8fc-4a38-9702-67d5a308e071"/>
+    <listType typeId="ff86ed4f-8a2d-4ae8-9897-ec4b4c06d728" valueTypeId="34aef669-7eb8-4aec-b8eb-c3124f123957"/>
+    <managerType typeId="615c9e88-ca58-44b0-86d0-d66089a8e2aa" valueTypeId="410d7145-194a-4c97-91b7-f9f0bc37edae"/>
+  </producedTypes>
+  <name>СписаниеБезналичныхДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+</mdclass:Document>

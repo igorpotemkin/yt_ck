@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="624736dc-7f2c-4131-a559-fcab0a67b5aa">
+  <producedTypes>
+    <objectType typeId="1a470bd0-aa83-4692-b35f-3f09080c483e" valueTypeId="02b9b7b4-b13d-429d-a6c5-fbe23b4165b3"/>
+    <managerType typeId="38a229d1-1e31-487d-848b-0951ffd42e34" valueTypeId="3cd35de6-2b22-4e31-9ff1-4dd85f6834e3"/>
+  </producedTypes>
+  <name>СК_Руководителю</name>
+  <synonym>
+    <key>ru</key>
+    <value>СК Руководителю</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СК_Руководителю.Form.Форма</defaultForm>
+  <forms uuid="1cddd331-38b0-46f8-b65c-81d015e2ea52">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="89dd41f3-5ccb-4220-a4e7-2144709e4ae7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>
