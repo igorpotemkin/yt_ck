@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73ad265a-135f-4125-a64f-fb1f8f811317">
+  <producedTypes>
+    <objectType typeId="69e5e4fa-3215-4f87-84d0-530fb903c181" valueTypeId="0930db68-757f-4d0c-bf92-d785022670c4"/>
+    <managerType typeId="d81d4ef1-35fc-44ed-949c-92b82b2ec012" valueTypeId="f3acbda4-8bd1-4979-8509-82bfd04ef99b"/>
+  </producedTypes>
+  <name>СК_НастройкаОбменБух</name>
+  <synonym>
+    <key>ru</key>
+    <value>СК НастройкаОбменБух</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СК_НастройкаОбменБух.Form.Форма</defaultForm>
+  <attributes uuid="d0b2c23c-4a45-45e7-a6ff-07afae73a3c6">
+    <name>АдресСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="594a9bed-1251-4172-9304-71154c7d8620">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="516cd2a1-8914-44a1-8005-a0f2e3d68f27">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="cc1b204b-6ba9-4280-be04-b69313ffbb27">
+    <name>АдресБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес БД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="8b7f352c-170e-44a3-9635-de447c480102">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

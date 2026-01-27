@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd0be71c-469f-4912-b456-2c42c962eab2">
+  <producedTypes>
+    <managerType typeId="9f0375b6-beb1-4f21-92a9-f1f05c25c470" valueTypeId="a109dd93-46e2-4b37-a400-baee5ca9e4e2"/>
+    <valueManagerType typeId="89a68b08-e38d-46bf-995d-0214537c32de" valueTypeId="14edecb5-7371-48f4-9c7f-d6146ecd6566"/>
+    <valueKeyType typeId="12157cc9-665d-475a-bf76-7ad8563223d2" valueTypeId="9bddc372-30ed-4c1b-8eb2-50f50da6704f"/>
+  </producedTypes>
+  <name>СК_БухСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>СК БухСервер</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -78,6 +78,7 @@
       <types>DocumentRef.СборкаТоваров</types>
       <types>DocumentRef.РеализацияТоваровУслуг</types>
       <types>DocumentRef.ВнутреннееПотребление</types>
+      <types>DocumentRef.СК_ПередачаТоваров</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

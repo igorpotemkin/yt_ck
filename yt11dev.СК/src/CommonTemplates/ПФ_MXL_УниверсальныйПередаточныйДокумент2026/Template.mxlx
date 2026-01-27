@@ -3015,12 +3015,7 @@
 			<c>
 				<c>
 					<f>247</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content/>
-						</v8:item>
-					</tl>
+					<tl/>
 				</c>
 			</c>
 			<c>
@@ -3372,12 +3367,7 @@
 			<c>
 				<c>
 					<f>247</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content/>
-						</v8:item>
-					</tl>
+					<tl/>
 				</c>
 			</c>
 			<c>
@@ -3528,12 +3518,7 @@
 			<c>
 				<c>
 					<f>247</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content/>
-						</v8:item>
-					</tl>
+					<tl/>
 				</c>
 			</c>
 			<c>
@@ -3559,12 +3544,7 @@
 			<c>
 				<c>
 					<f>247</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content/>
-						</v8:item>
-					</tl>
+					<tl/>
 					<detailParameter>Руководитель</detailParameter>
 				</c>
 			</c>
@@ -3942,6 +3922,7 @@
 		<endColumnOffset>867</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
+		<zOrder>1</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<drawing>
@@ -3958,7 +3939,7 @@
 		<endColumnOffset>348</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Proportionally</pictureSize>
-		<zOrder>1</zOrder>
+		<zOrder>2</zOrder>
 		<pictureIndex>2</pictureIndex>
 	</drawing>
 	<drawing>
@@ -3975,7 +3956,7 @@
 		<endColumnOffset>345</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Proportionally</pictureSize>
-		<zOrder>2</zOrder>
+		<zOrder>3</zOrder>
 		<pictureIndex>2</pictureIndex>
 	</drawing>
 	<drawing>
@@ -3992,7 +3973,7 @@
 		<endColumnOffset>348</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Proportionally</pictureSize>
-		<zOrder>3</zOrder>
+		<zOrder>4</zOrder>
 		<pictureIndex>2</pictureIndex>
 	</drawing>
 	<drawing>
@@ -4009,7 +3990,7 @@
 		<endColumnOffset>75</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Proportionally</pictureSize>
-		<zOrder>4</zOrder>
+		<zOrder>5</zOrder>
 		<pictureIndex>3</pictureIndex>
 	</drawing>
 	<drawing>
@@ -4026,7 +4007,7 @@
 		<endColumnOffset>39</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Proportionally</pictureSize>
-		<zOrder>5</zOrder>
+		<zOrder>6</zOrder>
 		<pictureIndex>3</pictureIndex>
 	</drawing>
 	<drawing>
@@ -4043,7 +4024,7 @@
 		<endColumnOffset>75</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Proportionally</pictureSize>
-		<zOrder>6</zOrder>
+		<zOrder>7</zOrder>
 		<pictureIndex>3</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
@@ -6590,7 +6571,7 @@
 		<hyperLink>false</hyperLink>
 	</format>
 	<picture>
-		<index>1</index>
+		<index>0</index>
 		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAAG4AAAA2CAIAAACp5Ds2AAAAAXNSR0IArs4c6QAA
 AARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAA
 OpgAABdwnLpRPAAAAl5JREFUeF7tm+uygyAMhHve/6E9nYoQciPay7QzX385KgJL
@@ -6609,11 +6590,11 @@ mKC2wqJVRrbmcpbL6zm7LTMEO05LsvUu7NpfmOACyiSk8ihHIFOGwO4UAv85YMal
 RyuctgAAAABJRU5ErkJggg==</picture>
 	</picture>
 	<picture>
-		<index>2</index>
+		<index>1</index>
 		<picture/>
 	</picture>
 	<picture>
-		<index>3</index>
+		<index>2</index>
 		<picture/>
 	</picture>
 	<baseSheet>

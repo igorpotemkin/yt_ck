@@ -16,4 +16,5 @@
   <content>Document.СК_ЗаданиеНаПечать</content>
   <content>DataProcessor.СК_Склад</content>
   <content>Report.СК_ОтчетФактСклад_v2</content>
+  <content>Document.СК_ПередачаТоваров</content>
 </mdclass:Subsystem>
