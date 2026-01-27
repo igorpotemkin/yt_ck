@@ -101,6 +101,10 @@
   <constants>Constant.СК_НомерРеализации</constants>
   <constants>Constant.ИспользоватьЗаказыКлиентов</constants>
   <constants>Constant.ИспользоватьНаборы</constants>
+  <constants>Constant.СК_БухСервер</constants>
+  <constants>Constant.СК_БухПользователь</constants>
+  <constants>Constant.СК_БухПароль</constants>
+  <constants>Constant.СК_БухБД</constants>
   <catalogs>Catalog.НоменклатураКонтрагентов</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.НаправленияДеятельности</catalogs>
@@ -161,6 +165,7 @@
   <documents>Document.СборкаТоваров</documents>
   <documents>Document.ЗаказНаСборку</documents>
   <documents>Document.ПересчетТоваров</documents>
+  <documents>Document.СК_ПередачаТоваров</documents>
   <documentNumerators>DocumentNumerator.ДокументыРеализацииТоваров</documentNumerators>
   <enums>Enum.ТипыНалогообложенияНДС</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
@@ -201,6 +206,7 @@
   <dataProcessors>DataProcessor.СК_Склад</dataProcessors>
   <dataProcessors>DataProcessor.ПечатьМ11</dataProcessors>
   <dataProcessors>DataProcessor.СК_ЗаполнитьКорректировку</dataProcessors>
+  <dataProcessors>DataProcessor.СК_НастройкаОбменБух</dataProcessors>
   <informationRegisters>InformationRegister.СК_Потребность</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ВариантыУказанияНоменклатурыВДокументахБЭД</informationRegisters>
