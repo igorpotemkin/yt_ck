@@ -1214,7 +1214,6 @@
                       <color>Style.ЦветТекстаНевыбраннойКартинки</color>
                     </textColor>
                     <border xsi:type="core:BorderDef">
-                      <style>Single</style>
                       <width>1</width>
                     </border>
                     <font xsi:type="core:FontRef">
@@ -8966,6 +8965,11 @@
             <dataPath xsi:type="form:DataPath">
               <segments>ТабЯчейки.ВналичииОстаток</segments>
             </dataPath>
+            <handlers xsi:type="form:EventHandlerExtension">
+              <event>OnChange</event>
+              <name>СК_ТабЯчейкиОстатокПриИзмененииПосле</name>
+              <callType>After</callType>
+            </handlers>
             <extendedTooltip>
               <name>ТабЯчейкиОстатокРасширеннаяПодсказка</name>
               <id>1576</id>
@@ -8982,6 +8986,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>InputField</type>
+            <readOnly>true</readOnly>
             <editMode>EnterOnInput</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -9090,8 +9095,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <readOnly>true</readOnly>
-          <changeRowSet>true</changeRowSet>
-          <changeRowOrder>true</changeRowOrder>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <autoMaxRowsCount>true</autoMaxRowsCount>

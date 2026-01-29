@@ -105,48 +105,48 @@
   <constants>Constant.СК_БухПользователь</constants>
   <constants>Constant.СК_БухПароль</constants>
   <constants>Constant.СК_БухБД</constants>
-  <catalogs>Catalog.НоменклатураКонтрагентов</catalogs>
-  <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.НаправленияДеятельности</catalogs>
-  <catalogs>Catalog.КартыЛояльности</catalogs>
-  <catalogs>Catalog.Склады</catalogs>
-  <catalogs>Catalog.ФизическиеЛица</catalogs>
-  <catalogs>Catalog.Партнеры</catalogs>
-  <catalogs>Catalog.ВидыЦен</catalogs>
-  <catalogs>Catalog.КонтактныеЛицаПартнеров</catalogs>
-  <catalogs>Catalog.Организации</catalogs>
-  <catalogs>Catalog.Контрагенты</catalogs>
-  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
-  <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
-  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
-  <catalogs>Catalog.СоглашенияСКлиентами</catalogs>
-  <catalogs>Catalog.КлассификаторТНВЭД</catalogs>
-  <catalogs>Catalog.СерииНоменклатуры</catalogs>
-  <catalogs>Catalog.СтавкиНДС</catalogs>
-  <catalogs>Catalog.СтруктураПредприятия</catalogs>
-  <catalogs>Catalog.ЗоныДоставки</catalogs>
-  <catalogs>Catalog.Пользователи</catalogs>
-  <catalogs>Catalog.СделкиСКлиентами</catalogs>
-  <catalogs>Catalog.ГруппыФинансовогоУчетаРасчетов</catalogs>
-  <catalogs>Catalog.БанковскиеСчетаОрганизаций</catalogs>
   <catalogs>Catalog.БанковскиеСчетаКонтрагентов</catalogs>
+  <catalogs>Catalog.БанковскиеСчетаОрганизаций</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
-  <catalogs>Catalog.Назначения</catalogs>
-  <catalogs>Catalog.ГруппыДоступаФизическихЛиц</catalogs>
-  <catalogs>Catalog.СК_Ячейки</catalogs>
-  <catalogs>Catalog.КатегорииЭксплуатации</catalogs>
-  <catalogs>Catalog.ОтветственныеЛицаОрганизаций</catalogs>
-  <catalogs>Catalog.НомераГТД</catalogs>
-  <catalogs>Catalog.СтраныМира</catalogs>
-  <catalogs>Catalog.СоглашенияСПоставщиками</catalogs>
-  <catalogs>Catalog.ВидыЦенПоставщиков</catalogs>
-  <catalogs>Catalog.ВидыЗапасов</catalogs>
-  <catalogs>Catalog.СтатьиДвиженияДенежныхСредств</catalogs>
-  <catalogs>Catalog.Приоритеты</catalogs>
   <catalogs>Catalog.ВариантыКомплектацииНоменклатуры</catalogs>
+  <catalogs>Catalog.ВидыЗапасов</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.ВидыЦенПоставщиков</catalogs>
+  <catalogs>Catalog.ГруппыДоступаФизическихЛиц</catalogs>
+  <catalogs>Catalog.ГруппыФинансовогоУчетаРасчетов</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.ЗоныДоставки</catalogs>
+  <catalogs>Catalog.КартыЛояльности</catalogs>
+  <catalogs>Catalog.КатегорииЭксплуатации</catalogs>
+  <catalogs>Catalog.КлассификаторТНВЭД</catalogs>
+  <catalogs>Catalog.КонтактныеЛицаПартнеров</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Назначения</catalogs>
+  <catalogs>Catalog.НаправленияДеятельности</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.НоменклатураКонтрагентов</catalogs>
+  <catalogs>Catalog.НомераГТД</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ОтветственныеЛицаОрганизаций</catalogs>
+  <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Приоритеты</catalogs>
   <catalogs>Catalog.ПричиныОтменыЗаказовКлиентов</catalogs>
+  <catalogs>Catalog.СделкиСКлиентами</catalogs>
+  <catalogs>Catalog.СерииНоменклатуры</catalogs>
+  <catalogs>Catalog.СК_Ячейки</catalogs>
   <catalogs>Catalog.СкладскиеПомещения</catalogs>
   <catalogs>Catalog.СкладскиеЯчейки</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.СоглашенияСКлиентами</catalogs>
+  <catalogs>Catalog.СоглашенияСПоставщиками</catalogs>
+  <catalogs>Catalog.СтавкиНДС</catalogs>
+  <catalogs>Catalog.СтатьиДвиженияДенежныхСредств</catalogs>
+  <catalogs>Catalog.СтраныМира</catalogs>
+  <catalogs>Catalog.СтруктураПредприятия</catalogs>
+  <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.СчетФактураВыданный</documents>
