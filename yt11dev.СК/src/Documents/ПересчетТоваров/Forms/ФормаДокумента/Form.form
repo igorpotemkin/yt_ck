@@ -8,6 +8,9 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Статус</segments>
+    </dataPath>
     <extendedTooltip>
       <name>СтатусРасширеннаяПодсказка</name>
       <id>166</id>
@@ -62,6 +65,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.Number</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>НомерРасширеннаяПодсказка</name>
                 <id>160</id>
@@ -103,6 +109,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.Date</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>ДатаРасширеннаяПодсказка</name>
                 <id>161</id>
@@ -132,6 +141,47 @@
                 <maxWidth>14</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
+                <chooseType>true</chooseType>
+                <typeDomainEnabled>true</typeDomainEnabled>
+                <textEdit>true</textEdit>
+              </extInfo>
+            </items>
+            <items xsi:type="form:FormField">
+              <name>СК_НомерПересчета</name>
+              <id>297</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.СК_НомерПересчета</segments>
+              </dataPath>
+              <extendedTooltip>
+                <name>СК_НомерПересчетаРасширеннаяПодсказка</name>
+                <id>299</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>СК_НомерПересчетаКонтекстноеМеню</name>
+                <id>298</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>InputField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:InputFieldExtInfo">
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <wrap>true</wrap>
+                <extendedEditMultipleValues>true</extendedEditMultipleValues>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
@@ -172,6 +222,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Склад</segments>
+            </dataPath>
             <extendedTooltip>
               <name>СкладРасширеннаяПодсказка</name>
               <id>162</id>
@@ -212,6 +265,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Помещение</segments>
+            </dataPath>
             <extendedTooltip>
               <name>ПомещениеРасширеннаяПодсказка</name>
               <id>168</id>
@@ -281,6 +337,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.БлокироватьЯчейки</segments>
+            </dataPath>
             <titleLocation>Right</titleLocation>
             <extendedTooltip>
               <name>БлокироватьЯчейкиРасширеннаяПодсказка</name>
@@ -312,6 +371,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Ответственный</segments>
+            </dataPath>
             <extendedTooltip>
               <name>ОтветственныйРасширеннаяПодсказка</name>
               <id>216</id>
@@ -349,6 +411,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Исполнитель</segments>
+            </dataPath>
             <extendedTooltip>
               <name>ИсполнительРасширеннаяПодсказка</name>
               <id>217</id>
@@ -452,6 +517,9 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Объект.ИспользоватьОтдельнуюЯчейкуИзлишков</segments>
+                </dataPath>
                 <titleLocation>Right</titleLocation>
                 <extendedTooltip>
                   <name>ИспользоватьЯчейкуИзлишкиРасширеннаяПодсказка</name>
@@ -483,6 +551,9 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Объект.ЯчейкаКонсолидацииИзлишковТоваров</segments>
+                </dataPath>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
                   <name>ЯчейкаКонсолидацииИзлишковТоваровРасширеннаяПодсказка</name>
@@ -551,6 +622,9 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Объект.ИспользоватьОтдельнуюЯчейкуПорчи</segments>
+                </dataPath>
                 <titleLocation>Right</titleLocation>
                 <extendedTooltip>
                   <name>ИспользоватьЯчейкуПорчиРасширеннаяПодсказка</name>
@@ -582,6 +656,9 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Объект.ЯчейкаКонсолидацииИспорченныхТоваров</segments>
+                </dataPath>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
                   <name>ЯчейкаКонсолидацииИспорченныхТоваровРасширеннаяПодсказка</name>
@@ -675,12 +752,20 @@
             <items xsi:type="form:FormField">
               <name>ПечататьКоличествоПоУчету</name>
               <id>79</id>
+              <title>
+                <key>ru</key>
+                <value>Показывать количество по учету</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.ПечататьКоличествоПоУчету</segments>
+              </dataPath>
               <titleLocation>Right</titleLocation>
+              <toolTipRepresentation>Button</toolTipRepresentation>
               <extendedTooltip>
                 <name>ПечататьКоличествоПоУчетуРасширеннаяПодсказка</name>
                 <id>211</id>
@@ -834,6 +919,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Комментарий</segments>
+          </dataPath>
           <titleLocation>Left</titleLocation>
           <extendedTooltip>
             <name>КомментарийРасширеннаяПодсказка</name>
@@ -1540,6 +1628,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.LineNumber</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыНомерСтрокиРасширеннаяПодсказка</name>
             <id>187</id>
@@ -1575,6 +1666,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.Ячейка</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыЯчейкаРасширеннаяПодсказка</name>
             <id>188</id>
@@ -1615,6 +1709,9 @@
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.ТипНоменклатуры</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыНоменклатураТипНоменклатурыРасширеннаяПодсказка</name>
             <id>189</id>
@@ -1647,6 +1744,9 @@
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.Номенклатура.Code</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыНоменклатураКодРасширеннаяПодсказка</name>
             <id>190</id>
@@ -1679,6 +1779,9 @@
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.Артикул</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыНоменклатураАртикулРасширеннаяПодсказка</name>
             <id>191</id>
@@ -1713,6 +1816,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.Номенклатура</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыНоменклатураРасширеннаяПодсказка</name>
             <id>192</id>
@@ -1751,6 +1857,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.Характеристика</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыХарактеристикаРасширеннаяПодсказка</name>
             <id>193</id>
@@ -1789,6 +1898,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.Назначение</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыНазначениеРасширеннаяПодсказка</name>
             <id>253</id>
@@ -1826,6 +1938,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.Серия</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыСерияРасширеннаяПодсказка</name>
             <id>194</id>
@@ -1870,6 +1985,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары.Упаковка</segments>
+            </dataPath>
             <extendedTooltip>
               <name>ТоварыУпаковкаРасширеннаяПодсказка</name>
               <id>196</id>
@@ -1914,6 +2032,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары.Номенклатура.ЕдиницаИзмерения</segments>
+            </dataPath>
             <extendedTooltip>
               <name>ТоварыНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка</name>
               <id>197</id>
@@ -1973,6 +2094,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.КоличествоУпаковок</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыКоличествоУпаковокРасширеннаяПодсказка</name>
             <id>198</id>
@@ -2013,6 +2137,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.КоличествоУпаковокФакт</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыКоличествоУпаковокФактРасширеннаяПодсказка</name>
             <id>199</id>
@@ -2052,6 +2179,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.КоличествоУпаковокОтклонение</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыКоличествоУпаковокОтклонениеРасширеннаяПодсказка</name>
             <id>239</id>
@@ -2246,6 +2376,9 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <titleDataPath xsi:type="form:DataPath">
+          <segments>Объект.Товары.RowsCount</segments>
+        </titleDataPath>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -2716,6 +2849,11 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers xsi:type="form:EventHandlerExtension">
+    <event>OnCreateAtServer</event>
+    <name>СК_ПриСозданииНаСервереПосле</name>
+    <callType>After</callType>
+  </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -2725,6 +2863,135 @@
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>Объект</name>
+    <id>1000001</id>
+    <valueType>
+      <types>DocumentObject.ПересчетТоваров</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Объект.RegisterRecords</segments>
+    </notDefaultUseAlwaysAttributes>
+    <main>true</main>
+    <savedData>true</savedData>
+    <additionalColumns>
+      <tablePath xsi:type="form:DataPath">
+        <segments>Объект.Товары</segments>
+      </tablePath>
+      <columns>
+        <name>ХарактеристикиИспользуются</name>
+        <title>
+          <key>ru</key>
+          <value>Характеристики используются</value>
+        </title>
+        <id>1</id>
+        <valueType>
+          <types>Boolean</types>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+      <columns>
+        <name>Расхождение</name>
+        <title>
+          <key>ru</key>
+          <value>Расхождение</value>
+        </title>
+        <id>2</id>
+        <valueType>
+          <types>Boolean</types>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+      <columns>
+        <name>ТипНоменклатуры</name>
+        <title>
+          <key>ru</key>
+          <value>Тип номенклатуры</value>
+        </title>
+        <id>3</id>
+        <valueType>
+          <types>EnumRef.ТипыНоменклатуры</types>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+      <columns>
+        <name>Артикул</name>
+        <title>
+          <key>ru</key>
+          <value>Артикул</value>
+        </title>
+        <id>4</id>
+        <valueType>
+          <types>DefinedType.Артикул</types>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+      <columns>
+        <name>КоличествоУпаковокОтклонение</name>
+        <title>
+          <key>ru</key>
+          <value>Отклонение</value>
+        </title>
+        <id>5</id>
+        <valueType>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+      <columns>
+        <name>ТипИзмеряемойВеличины</name>
+        <title>
+          <key>ru</key>
+          <value>Тип измеряемой величины</value>
+        </title>
+        <id>6</id>
+        <valueType>
+          <types>EnumRef.ТипыИзмеряемыхВеличин</types>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+    </additionalColumns>
+  </attributes>
   <formCommands>
     <name>ЗагрузитьИзТСД</name>
     <title>

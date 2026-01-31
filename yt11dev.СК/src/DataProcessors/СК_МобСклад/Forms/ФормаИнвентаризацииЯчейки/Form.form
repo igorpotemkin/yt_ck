@@ -50,6 +50,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>ШКЯчейки</segments>
       </dataPath>
+      <toolTipRepresentation>ShowRight</toolTipRepresentation>
       <extendedTooltip>
         <name>ШКЯчейкиРасширеннаяПодсказка</name>
         <id>3</id>
@@ -82,12 +83,12 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>Ячейка</name>
       <id>4</id>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -158,6 +159,49 @@
   <items xsi:type="form:FormGroup">
     <name>ГруппаНоменклатура</name>
     <id>21</id>
+    <items xsi:type="form:Decoration">
+      <name>Факт</name>
+      <id>60</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФактРасширеннаяПодсказка</name>
+        <id>62</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ФактКонтекстноеМеню</name>
+        <id>61</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.AccentColor</color>
+      </textColor>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+        <height>12.0</height>
+        <bold>true</bold>
+        <italic>false</italic>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+        <scale>100</scale>
+      </font>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
     <items xsi:type="form:Decoration">
       <name>Отсканировано</name>
       <id>33</id>
@@ -237,9 +281,15 @@
           <event>EditTextChange</event>
           <name>СканШКИзменениеТекстаРедактирования</name>
         </handlers>
+        <handlers>
+          <event>ChoiceProcessing</event>
+          <name>СканШКОбработкаВыбора</name>
+        </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <verticalStretch>true</verticalStretch>
         <wrap>true</wrap>
+        <multiLine>true</multiLine>
         <extendedEditMultipleValues>true</extendedEditMultipleValues>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
@@ -289,7 +339,6 @@
     <items xsi:type="form:FormField">
       <name>НаименованиеНоменклатуры</name>
       <id>13</id>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -405,16 +454,16 @@
       <name>Группа2</name>
       <id>50</id>
       <items xsi:type="form:Button">
-        <name>Плюс</name>
-        <id>52</id>
+        <name>Минус</name>
+        <id>54</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПлюсРасширеннаяПодсказка</name>
-          <id>53</id>
+          <name>МинусРасширеннаяПодсказка</name>
+          <id>55</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -423,13 +472,23 @@
           </extInfo>
         </extendedTooltip>
         <type>UsualButton</type>
-        <commandName>Form.Command.Плюс</commandName>
+        <commandName>Form.Command.Минус</commandName>
         <representation>Picture</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
         <placementArea>UserCmds</placementArea>
+        <font xsi:type="core:FontRef">
+          <font>Style.NormalTextFont</font>
+          <height>22.0</height>
+          <bold>true</bold>
+          <italic>false</italic>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+          <scale>100</scale>
+        </font>
         <picture xsi:type="core:PictureRef">
-          <picture>StdPicture.CreateListItem</picture>
+          <picture>StdPicture.Attribute</picture>
         </picture>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
@@ -472,7 +531,7 @@
         <extInfo xsi:type="form:InputFieldExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <horizontalStretch>true</horizontalStretch>
+          <horizontalStretch>false</horizontalStretch>
           <wrap>true</wrap>
           <extendedEditMultipleValues>true</extendedEditMultipleValues>
           <chooseType>true</chooseType>
@@ -486,16 +545,16 @@
         </extInfo>
       </items>
       <items xsi:type="form:Button">
-        <name>Минус</name>
-        <id>54</id>
+        <name>Плюс</name>
+        <id>52</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>МинусРасширеннаяПодсказка</name>
-          <id>55</id>
+          <name>ПлюсРасширеннаяПодсказка</name>
+          <id>53</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -504,13 +563,23 @@
           </extInfo>
         </extendedTooltip>
         <type>UsualButton</type>
-        <commandName>Form.Command.Минус</commandName>
+        <commandName>Form.Command.Плюс</commandName>
         <representation>Picture</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
         <placementArea>UserCmds</placementArea>
+        <font xsi:type="core:FontRef">
+          <font>Style.NormalTextFont</font>
+          <height>22.0</height>
+          <bold>true</bold>
+          <italic>false</italic>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+          <scale>100</scale>
+        </font>
         <picture xsi:type="core:PictureRef">
-          <picture>StdPicture.Attribute</picture>
+          <picture>StdPicture.CreateListItem</picture>
         </picture>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
@@ -571,17 +640,135 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </items>
-    <items xsi:type="form:Button">
-      <name>Добавить</name>
-      <id>31</id>
+    <items xsi:type="form:FormGroup">
+      <name>Группа3</name>
+      <id>56</id>
+      <items xsi:type="form:Button">
+        <name>Очистить</name>
+        <id>58</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ОчиститьРасширеннаяПодсказка</name>
+          <id>59</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualButton</type>
+        <commandName>Form.Command.Очистить</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <groupHorizontalAlign>Center</groupHorizontalAlign>
+        <placementArea>UserCmds</placementArea>
+        <textColor xsi:type="core:ColorDef">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+        </textColor>
+        <backColor xsi:type="core:ColorRef">
+          <color>Style.SpecialTextColor</color>
+        </backColor>
+        <font xsi:type="core:FontRef">
+          <font>Style.NormalTextFont</font>
+          <height>16.0</height>
+          <bold>true</bold>
+          <italic>false</italic>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+          <scale>100</scale>
+        </font>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>Добавить</name>
+        <id>31</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДобавитьРасширеннаяПодсказка</name>
+          <id>32</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualButton</type>
+        <commandName>Form.Command.Добавить</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <groupHorizontalAlign>Center</groupHorizontalAlign>
+        <placementArea>UserCmds</placementArea>
+        <font xsi:type="core:FontRef">
+          <font>Style.NormalTextFont</font>
+          <height>16.0</height>
+          <bold>true</bold>
+          <italic>false</italic>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+          <scale>100</scale>
+        </font>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>Изменить</name>
+        <id>46</id>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ИзменитьРасширеннаяПодсказка</name>
+          <id>47</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualButton</type>
+        <commandName>Form.Command.Изменить</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <groupHorizontalAlign>Center</groupHorizontalAlign>
+        <placementArea>UserCmds</placementArea>
+        <font xsi:type="core:FontRef">
+          <font>Style.NormalTextFont</font>
+          <height>16.0</height>
+          <bold>true</bold>
+          <italic>false</italic>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+          <scale>100</scale>
+        </font>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДобавитьРасширеннаяПодсказка</name>
-        <id>32</id>
+        <name>Группа3РасширеннаяПодсказка</name>
+        <id>57</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -589,60 +776,17 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <type>UsualButton</type>
-      <commandName>Form.Command.Добавить</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <horizontalStretch>true</horizontalStretch>
-      <groupHorizontalAlign>Center</groupHorizontalAlign>
-      <placementArea>UserCmds</placementArea>
-      <font xsi:type="core:FontRef">
-        <font>Style.NormalTextFont</font>
-        <height>16.0</height>
-        <bold>true</bold>
-        <italic>false</italic>
-        <underline>false</underline>
-        <strikeout>false</strikeout>
-        <scale>100</scale>
-      </font>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
-    <items xsi:type="form:Button">
-      <name>Изменить</name>
-      <id>46</id>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ИзменитьРасширеннаяПодсказка</name>
-        <id>47</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualButton</type>
-      <commandName>Form.Command.Изменить</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <horizontalStretch>true</horizontalStretch>
-      <groupHorizontalAlign>Center</groupHorizontalAlign>
-      <placementArea>UserCmds</placementArea>
-      <font xsi:type="core:FontRef">
-        <font>Style.NormalTextFont</font>
-        <height>16.0</height>
-        <bold>true</bold>
-        <italic>false</italic>
-        <underline>false</underline>
-        <strikeout>false</strikeout>
-        <scale>100</scale>
-      </font>
-      <representationInContextMenu>Auto</representationInContextMenu>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <behavior>Auto</behavior>
+        <representation>WeakSeparation</representation>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <showTitle>true</showTitle>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -1048,6 +1192,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>Минус</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>Очистить</name>
+    <title>
+      <key>ru</key>
+      <value>Очистить</value>
+    </title>
+    <id>5</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Очистить</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Очистить</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
